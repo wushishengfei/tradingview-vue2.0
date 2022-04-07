@@ -10,7 +10,7 @@ import store from '../store';
 declare const TradingView:any
 declare const $:any
 const LastPrice = 1234.2365
-
+const text = '测试机'
 @Component
 export default class TradingViewComponent extends Vue {
     feed:any = null
